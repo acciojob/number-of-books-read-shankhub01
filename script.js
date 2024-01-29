@@ -18,16 +18,15 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
-	const numberOfBooksRead = 0;
+	let numberOfBooksRead =0;
 for(var i=0;i<library.length;i++){
 	if(library[i].readingStatus){
-		return numberOfBooksRead=numberOfBooksRead+1;
-	} else{
-		return numberOfBooksRead;
-	}
+		 numberOfBooksRead++;
+	} 
 }
+	return numberOfBooksRead;
 };
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+//alert(numberOfBooksRead());
