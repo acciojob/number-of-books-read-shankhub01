@@ -29,4 +29,4 @@ for(var i=0;i<library.length;i++){
 
 // Do not change the code below
 
-//alert(numberOfBooksRead());
+alert(numberOfBooksRead());
